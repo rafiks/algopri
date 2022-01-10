@@ -1,4 +1,4 @@
-package com.example.demo;
+// package com.example.demo;
 
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
@@ -12,7 +12,10 @@ public class RandomWord {
     // testing argument
     //
 
-    System.out.println("args-length: " + args.length);
+    String test = StdIn.readString();
+    System.out.println("test");
+    // StdIn.readString()
+    // System.out.println("args-length: " + args.length); //
 
     // if StdIn.isEmpty(){
     // }
@@ -20,5 +23,12 @@ public class RandomWord {
     // StdIn.isEmpty();
     // StdOut.println();
     // StdRandom.bernoulli();
+  }
+
+  /**
+   * InnerRandomWord
+   */
+  public class randomWord {
+
   }
 }
