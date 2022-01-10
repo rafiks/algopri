@@ -43,23 +43,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
       <scope>system</scope>
       <systemPath>${externlib}/algs4.jar</systemPath>
     </dependency>
-    <dependency>
-      <groupId>stdlib</groupId>
-      <artifactId>stdlib</artifactId>
-      <version>1</version>
-      <scope>system</scope>
-      <systemPath>${externlib}/stdlib.jar</systemPath>
-    </dependency>
-    <dependency>
-      <groupId>edu.princeton.cs.introcs</groupId>
-      <artifactId>algs4-package</artifactId>
-      <version>1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>edu.princeton.cs.introcs</groupId>
-      <artifactId>stdlib-package</artifactId>
-      <version>1.0</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -85,11 +68,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
       <releases>
         <enabled>false</enabled>
       </releases>
-    </repository>
-    <repository>
-      <id>org.coursera.algs4</id>
-      <name>Algs4 coursera course custom repository</name>
-      <url>https://raw.github.com/slok/algs4-mvn-repo/master</url>
     </repository>
   </repositories>
   <pluginRepositories>
