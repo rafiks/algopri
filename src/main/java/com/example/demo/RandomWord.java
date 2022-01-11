@@ -16,7 +16,6 @@ public class RandomWord {
       i++;
 
     }
-
     System.out.println(champ);
   }
 }
